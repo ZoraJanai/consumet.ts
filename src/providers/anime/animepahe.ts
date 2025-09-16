@@ -16,7 +16,7 @@ import { USER_AGENT } from '../../utils';
 
 class AnimePahe extends AnimeParser {
   override readonly name = 'AnimePahe';
-  protected override baseUrl = 'https://animepahe.ru';
+  protected override baseUrl = 'https://animepahe.si';
   protected override logo = 'https://animepahe.com/pikacon.ico';
   protected override classPath = 'ANIME.AnimePahe';
 
