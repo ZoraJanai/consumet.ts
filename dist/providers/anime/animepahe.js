@@ -161,6 +161,7 @@ class AnimePahe extends models_1.AnimeParser {
                     iSource.sources.push(res[0]);
                 }
                 return iSource;
+                
             }
             catch (err) {
                 throw new Error(err.message);
