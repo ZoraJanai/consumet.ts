@@ -150,7 +150,7 @@ class AnimePahe extends models_1.AnimeParser {
                 }));
                 const iSource = {
                     headers: {
-                        Referer: 'https://kwik.cx/',
+                        Referer: 'https://kwik.si/',
                     },
                     sources: [],
                 };

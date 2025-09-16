@@ -182,7 +182,7 @@ class AnimePahe extends AnimeParser {
 
       const iSource: ISource = {
         headers: {
-          Referer: 'https://kwik.cx/',
+          Referer: 'https://kwik.si/',
         },
         sources: [],
       };

@@ -118,7 +118,7 @@ returns a promise which resolves into an array of episode sources. (*[`Promise<I
 output:
 ```js
 {
-  headers: { Referer: 'https://kwik.cx/' },
+  headers: { Referer: 'https://kwik.si/' },
   sources: [
     {
       url: 'https://na-191.files.nextcdn.org/hls/01/b49063a1225cf4350deb46d79b42a7572e323274d1c9d63f3b067cc4df09986a/uwu.m3u8',
