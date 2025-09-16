@@ -155,7 +155,7 @@ class AnimePahe extends models_1.AnimeParser {
                     headers: {
                         Referer: 'https://kwik.si/',
                     },
-                    sources: [],
+                    sources: links,
                 };
                 //for (const link of links) {
                 //    const res = await new extractors_1.Kwik(this.proxyConfig).extract(new URL(link.url));
