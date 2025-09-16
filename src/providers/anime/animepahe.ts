@@ -231,7 +231,7 @@ class AnimePahe extends AnimeParser {
 
   private Headers(sessionId: string | false) {
     return {
-      authority: 'animepahe.ru',
+      authority: 'animepahe.si',
       accept: 'application/json, text/javascript, */*; q=0.01',
       'accept-language': 'en-US,en;q=0.9',
       cookie: '__ddg2_=;',
