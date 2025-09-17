@@ -149,23 +149,24 @@ class AnimePahe extends models_1.AnimeParser {
                     audio: $(el).attr('data-audio'),
                 }));
 
-                //const debugList=[]
-                //for (const link of links) {
-                //    debugList.push(link)
-                //}
+                const debugList=[]
+                for (const link of links) {
+                    debugList.push(link)
+                }
 
                 const iSource = {
                     headers: {
                         Referer: 'https://kwik.si/',
                     },
-                    sources: [],
+                    sources: debugList,
+                    extractor: "local"
                 };
-                for (const link of links) {
-                    const res = await new extractors_1.Kwik().extract(new URL(link.url));
-                    res[0].quality = link.quality;
-                    res[0].isDub = link.audio === 'eng';
-                    iSource.sources.push(res[0]);
-                }
+                //for (const link of links) {
+                //    const res = await new extractors_1.Kwik().extract(new URL(link.url));
+                //    res[0].quality = link.quality;
+                //    res[0].isDub = link.audio === 'eng';
+                //    iSource.sources.push(res[0]);
+                //}
                 return iSource;
 
             }
